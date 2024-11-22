@@ -492,10 +492,10 @@
                     <?php $date = date("Y-m-d"); ?>
                     <div class="col-md-6 col-6">
                     <span><?php echo $this->lang->line("with_date_menu") ?></span>
-                    <input type="date" readonly class="form-control" value="<?php echo $date; ?>" name="with_date" required>       
+                    <input type="date"  class="form-control" value="<?php echo $date; ?>" name="with_date" required>       
                     </div>
                      <div class="col-md-6 col-6">
-                    <span>code</span>
+                    <span>code number</span>
                     <input type="number" autocomplete="off" class="form-control" placeholder="Enter code" name="code" required>       
                     </div>
                    
